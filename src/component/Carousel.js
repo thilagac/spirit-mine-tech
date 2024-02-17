@@ -4,7 +4,7 @@ import video1 from '../component/image/v2.mp4'
 import video2 from '../component/image/v3.mp4'
 import img from '../component/image/front.jpg'
 import img1 from '../component/image/full.jpg'
-import img2 from '../component/image/back.jpg'
+import img2 from '../component/image/back.png'
 function Carousel() {
   return (
     <div>

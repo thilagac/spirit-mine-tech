@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from './image/logo.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, fas,faStackOverflow } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
   return (
@@ -13,8 +15,8 @@ function Navbar() {
     <div class="collapse navbar-collapse container" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 container home ">
         <li class="nav-item ">
-          <a class="nav-link   sriracha-regular" aria-current="page" href="/">Home</a>
-        </li>
+          <a class="nav-link   sriracha-regular" aria-current="page" href="/"> <FontAwesomeIcon icon={fas.faHouse} />  Home
+          </a> </li>
         <li class="nav-item">
           <a class="nav-link  sriracha-regular " href="#services">Services</a>
         </li>

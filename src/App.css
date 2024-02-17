@@ -3,12 +3,14 @@
   height: 50px;
  border-radius: 10px;
  border: 1px solid #000000c8;
- box-shadow: 2px 2px 10px rgb(127, 125, 126) ;
+ box-shadow: 4px 2px 10px rgb(81, 80, 80) ;
 }
 .nav-background{
-  background-color: rgba(20, 43, 45, 0.135);
-  
+  background-color: rgba(103, 103, 103, 0.71);
+  position: fixed;
   padding: 5px;
+  top:0px;
+  z-index: 2;
 }
 
 .sriracha-regular {
@@ -17,14 +19,15 @@
   font-weight: 400;
   font-style: normal;
   font-size: larger;
-  color: rgb(48, 47, 47) !important;
+  color: rgb(23, 23, 23) !important;
 }
 .sriracha-regular:hover{
-  color: rgb(143, 55, 30) !important;
+  color: rgb(235, 232, 228) !important;
 
 }
+
 .home{
-  margin-left: 200px;
+  margin-left: 20px;
   
 }
 .search-btn{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -66,6 +69,7 @@
   padding: 4px;
   font-weight: bold;
   text-align: center;
+  background-color: #373333;
 }
 .rubik {
   
@@ -132,7 +136,7 @@ p{
  border-radius: 24px;
 }
 .about-logo{
-  width: 350px;
+  width: 300px;
   height: 250px;
   margin-left: 5px;
 }
@@ -149,4 +153,52 @@ p{
 }
 .happy{
   height: 200px;
+}
+.contact{
+  margin: 3px;
+  list-style: none;
+  padding: 30px;
+}
+.list-Contact{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  color: rgb(30, 30, 30);
+ 
+}
+hr{
+  color: rgb(47, 54, 54);
+  
+}
+.list-Contact:hover{
+  color: rgb(216, 151, 31);
+}
+.Linked{
+  color: blue;
+  font-size: x-large;
+  
+}
+.faceBook{
+  font-size: x-large;
+  color: rgb(37, 198, 227);
+}
+.twitter{
+  font-size: x-large;
+  color: rgb(23, 131, 131);
+}
+.inta{
+  font-size: x-large;
+  color: purple;
+}
+.phone{
+  font-size: x-large;
+  color: rgb(69, 80, 90);
+}
+.email{
+  font-size: x-large;
+  color: azure;
+}
+.contact-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 400px;
 }
